@@ -1,0 +1,24 @@
+package util;
+
+import java.util.Arrays;
+
+public abstract class MisArrays {
+	/**
+	 * @param notas Un array de enteros que representa las notas.
+	 * @return El valor entero de la nota máxima encontrada en el array.
+	 * @throws IllegalArgumentException Si el array de notas es nulo o vacío.
+	 */
+	public static int MaximaNota(int[] notas) {
+		int max = notas[0];
+		   if (notas == null || notas.length == 0)
+		      throw new IllegalArgumentException("Las notas no puede ser nulo o vacío");
+		      for (int nota : notas) {
+		           if(nota > max) {
+		            max = nota;
+		                }
+		    }
+		       return max;
+		}
+
+
+}
