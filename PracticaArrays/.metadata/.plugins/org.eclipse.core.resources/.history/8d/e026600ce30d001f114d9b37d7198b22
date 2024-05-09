@@ -18,7 +18,7 @@ class mediaNotas {
 
 		@Test
 		public void testMediaNota() {	        
-		        assertEquals(5, MisArrays.mediaNotas(notasValidas), "La nota media");
+		        assertEquals(55.0, MisArrays.mediaNotas(notasValidas), "La nota media");
 		    }
 		
 	

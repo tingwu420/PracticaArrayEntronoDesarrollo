@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="mediaNotas" project="PracticaArrays" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.mediaNotas" time="0.021" displayname="mediaNotas" uniqueid="[engine:junit-jupiter]/[class:tests.mediaNotas]">
+    <testcase name="testMediaNota" classname="tests.mediaNotas" time="0.018" displayname="testMediaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.mediaNotas]/[method:testMediaNota()]"/>
+    <testcase name="testMediaNovalidosNotaError" classname="tests.mediaNotas" time="0.002" displayname="testMediaNovalidosNotaError()" uniqueid="[engine:junit-jupiter]/[class:tests.mediaNotas]/[method:testMediaNovalidosNotaError()]"/>
+  </testsuite>
+</testrun>

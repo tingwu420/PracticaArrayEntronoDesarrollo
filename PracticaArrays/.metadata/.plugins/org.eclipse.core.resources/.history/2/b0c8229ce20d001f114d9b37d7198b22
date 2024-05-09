@@ -18,10 +18,13 @@ class mediaNotas {
 
 		@Test
 		public void testMediaNota() {	        
-		        assertEquals(5, MisArrays.mediaNotas(notasValidas), "La nota media");
+		        assertEquals(1, MisArrays.mediaNotas(notasValidas), "La nota media");
 		    }
 		
-	
+		@Test
+		public void testMediaNovalidosNota() {
+		        assertEquals(10, MisArrays.mediaNotas(notasNoValidas), "Error de notas");
+		    }
 		@Test
 		public void testMediaNovalidosNotaError() {
 			assertThrows(IllegalArgumentException.class, () -> MisArrays.mediaNotas(notasNoValidas));
