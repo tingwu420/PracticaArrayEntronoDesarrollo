@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaximaNota" project="PracticaArrays" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="tests.MaximaNota" time="0.031" displayname="MaximaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]">
+    <testcase name="testMaximaNovalidaNota" classname="tests.MaximaNota" time="0.015" displayname="testMaximaNovalidaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidaNota()]"/>
+    <testcase name="testMaximaNota" classname="tests.MaximaNota" time="0.002" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNota()]"/>
+    <testcase name="testMaximaNovalidosNotaError" classname="tests.MaximaNota" time="0.013" displayname="testMaximaNovalidosNotaError()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidosNotaError()]">
+      <failure>org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)&#13;
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)&#13;
+	at tests.MaximaNota.testMaximaNovalidosNotaError(MaximaNota.java:29)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

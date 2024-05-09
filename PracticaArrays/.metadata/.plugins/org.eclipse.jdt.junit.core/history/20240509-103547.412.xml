@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaximaNota" project="PracticaArrays" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.MaximaNota" time="0.019" displayname="MaximaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]">
+    <testcase name="testMaximaNovalidaNota" classname="tests.MaximaNota" time="0.017" displayname="testMaximaNovalidaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidaNota()]"/>
+    <testcase name="testMaximaNota" classname="tests.MaximaNota" time="0.001" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNota()]"/>
+  </testsuite>
+</testrun>

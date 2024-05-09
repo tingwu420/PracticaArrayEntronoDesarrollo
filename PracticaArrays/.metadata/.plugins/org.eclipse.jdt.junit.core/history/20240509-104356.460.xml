@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MinimaNota" project="PracticaArrays" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="tests.MinimaNota" time="0.033" displayname="MinimaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]">
+    <testcase name="testMinimaNovalidosNota" classname="tests.MinimaNota" time="0.022" displayname="testMinimaNovalidosNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]/[method:testMinimaNovalidosNota()]">
+      <error>java.lang.IllegalArgumentException: Las notas deben estar entre 0 y 10&#13;
+	at util.MisArrays.MinimaNota(MisArrays.java:32)&#13;
+	at tests.MinimaNota.testMinimaNovalidosNota(MinimaNota.java:26)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testMinimaNota" classname="tests.MinimaNota" time="0.005" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]/[method:testMinimaNota()]"/>
+    <testcase name="testMinimaNovalidosNotaError" classname="tests.MinimaNota" time="0.003" displayname="testMinimaNovalidosNotaError()" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]/[method:testMinimaNovalidosNotaError()]"/>
+  </testsuite>
+</testrun>

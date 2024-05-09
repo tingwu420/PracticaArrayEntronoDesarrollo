@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaximaNota" project="PracticaArrays" tests="2" started="2" failures="1" errors="1" ignored="0">
+  <testsuite name="tests.MaximaNota" time="0.042" displayname="MaximaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]">
+    <testcase name="testMaximaNota" classname="tests.MaximaNota" time="0.03" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNota()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+&#13;
+	at util.MisArrays.MaximaNota(MisArrays.java:11)&#13;
+	at tests.MaximaNota.testMaximaNota(MaximaNota.java:21)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testMaximaNovalidosNotaError" classname="tests.MaximaNota" time="0.011" displayname="testMaximaNovalidosNotaError()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidosNotaError()]">
+      <failure>
+        <expected>class java.lang.IllegalArgumentException</expected>
+        <actual>class java.lang.Error</actual>
+        org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.Error&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)&#13;
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)&#13;
+	at tests.MaximaNota.testMaximaNovalidosNotaError(MaximaNota.java:26)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+Caused by: java.lang.Error: Unresolved compilation problem: 
+&#13;
+	at util.MisArrays.MaximaNota(MisArrays.java:11)&#13;
+	at tests.MaximaNota.lambda$0(MaximaNota.java:26)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)&#13;
+	... 6 more&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

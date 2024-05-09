@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MaximaNota" project="PracticaArrays" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="tests.MaximaNota" time="0.037" displayname="MaximaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]">
+    <testcase name="testMaximaNovalidaNota" classname="tests.MaximaNota" time="0.025" displayname="testMaximaNovalidaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidaNota()]">
+      <error>java.lang.IllegalArgumentException: Las notas deben estar entre 0 y 10&#13;
+	at util.MisArrays.MaximaNota(MisArrays.java:15)&#13;
+	at tests.MaximaNota.testMaximaNovalidaNota(MaximaNota.java:25)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testMaximaNota" classname="tests.MaximaNota" time="0.006" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNota()]"/>
+    <testcase name="testMaximaNovalidosNotaError" classname="tests.MaximaNota" time="0.004" displayname="testMaximaNovalidosNotaError()" uniqueid="[engine:junit-jupiter]/[class:tests.MaximaNota]/[method:testMaximaNovalidosNotaError()]"/>
+  </testsuite>
+</testrun>

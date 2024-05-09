@@ -6,34 +6,44 @@ public abstract class MisArrays {
 	/**
 	 * @param notas Un array de enteros que representa las notas.
 	 * @return El valor entero de la nota máxima encontrada en el array.
-	 * @throws IllegalArgumentException Si el array de notas es nulo o vacío.
+	 * @throws IllegalArgumentException Si el array de notas no esta entre 0 y 10.
 	 */
 	public static int MaximaNota(int[] notas) {
 		int max = notas[0];
-		   if (notas == null || notas.length == 0)
-		      throw new IllegalArgumentException("Las notas no puede ser nulo o vacío");
-		      for (int nota : notas) {
-		           if(nota > max) {
-		            max = nota;
-		                }
+		  for (int i=0;i<notas.length;i++) {
+		   if (notas[i] <0 || notas[i]>10) {
+	 throw new IllegalArgumentException("Las notas deben estar entre 0 y 10");
+            }else if(notas[i]>max) {
+            	max=notas[i];
+              }
 		    }
 		       return max;
 		}
 
 	/**
 	 * @param notas Un array de enteros que representa las notas.
-	 * @return El valor entero de la nota máxima encontrada en el array.
-	 * @throws IllegalArgumentException Si el array de notas es nulo o vacío.
+	 * @return El valor entero de la nota minima encontrada en el array.
+	 * @throws IllegalArgumentException Si el array de notas no esta en 0 y 10.
 	 */
-	public static int MinimaNota(int[] notas) {
+public static int MinimaNota(int[] notas) {
 		int min = notas[0];
-		   if (notas == null || notas.length == 0)
-		      throw new IllegalArgumentException("Las notas no puede ser nulo o vacío");
-		      for (int nota : notas) {
-		           if(nota < min) {
-		            min = nota;
-		                }
+		  for (int i=0;i<notas.length;i++) {
+		   if (notas[i] <0 || notas[i]>10) {
+	 throw new IllegalArgumentException("Las notas deben estar entre 0 y 10");
+            }else if(notas[i]<min) {
+            	min=notas[i];
+              }
 		    }
 		       return min;
 		}
+/**
+ * 
+ * @param notas Un array de valores float que representan las notas.
+ * @return La media de las notas en el array.
+ * @throws IllegalArgumentException Si el array de notas no esta en 0 y 10.
+ */
+public static float mediaNotas(float[] notas) {
+    
+	return 3;
+}	
 }

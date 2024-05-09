@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MinimaNota" project="PracticaArrays" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="tests.MinimaNota" incomplete="true" displayname="MinimaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]">
+    <error>org.junit.platform.commons.JUnitException: @BeforeAll method 'public void tests.MinimaNota.testMinimaNota()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    <testcase name="testMinimaNota" classname="tests.MinimaNota" incomplete="true" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]/[method:testMinimaNota()]"/>
+  </testsuite>
+</testrun>

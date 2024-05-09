@@ -1,0 +1,33 @@
+package tests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import util.MisArrays;
+
+class MinimaNota {
+	static int[]notasValidas;
+	static int[]notasNoValidas;
+	@BeforeAll
+	public static void inicializarDatos() {
+		notasValidas= new int[]{1};
+		notasNoValidas= new int[]{-1,2,3,4,5,6,7,8,9,10};
+	}
+
+	@Test
+	public void testMinimaNota() {	        
+	        assertEquals(1, MisArrays.MinimaNota(notasValidas), "La nota minima debería ser 1");
+	    }
+	
+	@Test
+	public void testMinimaNovalidosNota() {
+	        assertEquals(1, MisArrays.MinimaNota(notasNoValidas), "Error de notas");
+	    }
+	@Test
+	public void testMinimaNovalidosNotaError() {
+		assertThrows(IllegalArgumentException.class, () -> MisArrays.MinimaNota(notasNoValidas));
+              
+	    }
+}
