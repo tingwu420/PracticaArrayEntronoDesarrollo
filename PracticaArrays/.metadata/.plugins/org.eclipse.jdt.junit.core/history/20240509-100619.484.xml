@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MinimaNota" project="PracticaArrays" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="tests.MinimaNota" time="0.0" displayname="MinimaNota" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]">
+    <testcase name="testMinimaNota" classname="tests.MinimaNota" time="0.0" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.MinimaNota]/[method:testMinimaNota()]">
+      <failure>
+        <expected>10</expected>
+        <actual>1</actual>
+        org.opentest4j.AssertionFailedError: La nota minima debería ser 1 ==&gt; expected: &lt;10&gt; but was: &lt;1&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)&#13;
+	at tests.MinimaNota.testMinimaNota(MinimaNota.java:14)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

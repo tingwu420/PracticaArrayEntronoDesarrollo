@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import util.MisArrays;
 
-class MaximaNota {
+class MinimaNota {
 
 	@Test
-	public void testMaximaNota() {
+	public void testMinimaNota() {
 	        int[] notas = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-	        assertEquals(10, MisArrays.MaximaNota(notas), "La nota máxima debería ser 10");
+	        assertEquals(1, MisArrays.MinimaNota(notas), "La nota minima debería ser 1");
 	    }
-	
+
 }
