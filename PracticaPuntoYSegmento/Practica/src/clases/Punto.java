@@ -4,7 +4,7 @@ public class Punto {
 	 /**
 	  * Atributos
 	  */
-	int x;
+   int x;
    int y;
 
    /**
@@ -23,43 +23,26 @@ public class Punto {
        this.x = x;
        this.y = y;
    }
-   /**
-    * Obtiene la coordenada y del punto.
-    * 
-    * @return La coordenada y.
-    */
+
    public int getX() {
        return x;
    }
 
-   /**
-    * Pone la coordenada x del punto.
-    * @param x La nueva coordenada del punto x.
-    */
+ 
    public void setX(int x) {
        this.x = x;
    }
 
-   /**
-    * Obtiene la coordenada y del punto.
-    * @return La coordenada y.
-    */
+  
    public int getY() {
        return y;
    }
 
-   /**
-    * Pone la coordenada y del punto.
-    * @param y La nueva coordenada del punto y.
-    */
    public void setY(int y) {
        this.y = y;
    }
 
-   /**
-    * Nos devuelve una cadena de punto.
-    * @return Una cadena en x e y.
-    */
+
    @Override
    public String toString() {
        return "(" + x + ", " + y + ")";

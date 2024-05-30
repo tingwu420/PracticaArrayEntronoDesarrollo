@@ -1,0 +1,25 @@
+package app;
+import java.util.Random;
+import clases.Punto;
+import clases.Segmento;
+
+public class Principal {
+ 
+	public static void main(String[] args) {
+	       
+ Random random = new Random();
+ Random random1 = new Random();
+
+	        Punto[] puntos = new Punto[4];
+	        for (int i = 0; i < 4; i++) {
+	            int x = random.nextInt(11); 
+	            int y = random1.nextInt(11); 
+	            puntos[i] = new Punto(x, y);
+	        }
+
+	        Segmento segmento1 = new Segmento(puntos[0], puntos[1]);
+	        Segmento segmento2 = new Segmento(puntos[2], puntos[3]);
+
+	    }
+
+}
